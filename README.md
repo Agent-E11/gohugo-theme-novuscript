@@ -1,3 +1,3 @@
 # Novuscript theme
 
-Following tutorial: https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/
+Started off with tutorial: https://retrolog.io/blog/creating-a-hugo-theme-from-scratch/

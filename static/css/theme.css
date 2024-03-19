@@ -1,0 +1,18 @@
+body {
+    min-height: 100vh;
+}
+
+header {
+    min-height: 50px;
+}
+footer {
+    min-height: 50px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+article {
+    flex: 1;
+}

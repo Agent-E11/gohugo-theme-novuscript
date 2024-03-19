@@ -1,0 +1,29 @@
+{
+  "name": "gohugo-theme-novuscript",
+  "version": "0.0.1",
+  "description": "Hugo theme for the Novuscript website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/theme.css",
+    "watch-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/theme.css -w --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Agent-E11/gohugo-theme-novuscript.git"
+  },
+  "keywords": [
+    "hugo",
+    "go",
+    "theme"
+  ],
+  "author": "Agent-E11",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Agent-E11/gohugo-theme-novuscript/issues"
+  },
+  "homepage": "https://github.com/Agent-E11/gohugo-theme-novuscript#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
