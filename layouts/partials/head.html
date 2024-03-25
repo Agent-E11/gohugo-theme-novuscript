@@ -1,8 +1,6 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- TODO: Remove bootstrap -->
-    <link rel="stylesheet" type="text/css" href="{{ absURL "css/bootstrap.min.css" }}">
     {{ $themeStyle := resources.Get "theme.css" }}
     <link rel="stylesheet" type="text/css" href="{{ $themeStyle.Permalink }}">
     {{ $userStyle := resources.Get "style.css" }}

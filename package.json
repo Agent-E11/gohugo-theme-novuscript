@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/theme.css",
-    "watch-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/theme.css -w --minify"
+    "watch-tw": "npx tailwindcss -i ./assets/main.css -o ./assets/theme.css -w"
   },
   "repository": {
     "type": "git",
